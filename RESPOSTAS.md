@@ -47,20 +47,26 @@ Emprestimo.
 ## Padrão aplicado ao Problema 1
 
 **O problema que ele resolve (descreva antes de nomear o padrão):**
-
+Centraliza a conversao do formato recebido do sistema externo. Assim, o
+catalogo e o relatorio recebem os mesmos Exemplares, inclusive quando a
+situacao vier com letra minuscula.
 
 **Nome do padrão:**
-
+Adapter (Adaptador).
 
 **Alternativa descartada e por que ela não resolveria por completo:**
-
+Alterar AcervoLegadoWS. Essa classe pertence a outro componente e mudar seu
+formato poderia atrapalhar outros sistemas que ja usam o servico.
 
 ## Padrão aplicado ao Problema 2
 
 **O problema que ele resolve (descreva antes de nomear o padrão):**
-
+Deixa as regras de transicao separadas por situacao. Dessa forma, Emprestimo
+nao precisa ter varios ifs para decidir o que pode acontecer em cada fase.
 
 **Nome do padrão:**
-
+State (Estado).
 
 **Alternativa descartada e por que ela não resolveria por completo:**
+Usar enum para a situacao. O enum evitaria erros de escrita, mas os ifs ou
+switch para fazer as transicoes continuariam concentrados em Emprestimo.
