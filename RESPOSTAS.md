@@ -1,11 +1,6 @@
 # Respostas — Sistema de Emprestimo da Biblioteca
 
-Nome completo: ______________________________________  RA: ______________
-
-> Preencha **todos** os campos. Campo vazio é campo não avaliado.
-> Não apague os títulos nem os rótulos em negrito: a correção procura por eles.
-
----
+Nome completo: Thais Ferreira Lemos - RA: 3111392523009
 
 # Etapa 1 — Diagnóstico
 
